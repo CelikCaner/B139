@@ -1,0 +1,20 @@
+a {
+  color: green; /*changes the general link color */
+}
+
+a:link {
+  color: purple; /*changes the unvisited link's color */
+}
+
+a:visited {
+  color: orange; /*changes the visited link's color */
+}
+
+a:hover {
+  background-color: aqua;
+  text-decoration: underline;
+}
+
+.title:hover {
+  color: red;
+}

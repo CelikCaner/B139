@@ -1,0 +1,17 @@
+.baslik {
+  color: green;
+}
+
+h1 {
+  color: violet;
+}
+
+* {
+  color: aqua;
+}
+
+h1.baslik {
+  color: rgba(255, 255, 0, 0.61);
+}
+
+/* COMMENT */

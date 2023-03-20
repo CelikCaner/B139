@@ -1,0 +1,12 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1.title {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: lighter;
+}
