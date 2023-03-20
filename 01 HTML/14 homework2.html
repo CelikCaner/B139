@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <form method="post" action="/account/login">
+        <tr>
+          <td>Adi</td>
+          <td><input type="text" name="firstName" /></td>
+          <td style="width: 100px">Hobiler</td>
+          <td rowspan="3">
+            <input type="checkbox" name="hobbies" />
+            <label for="userHob">Futbol</label><br />
+            <input type="checkbox" name="hobbies2" />
+            <label for="userHob">Voleybol</label><br />
+            <input type="checkbox" name="hobbies3" />
+            <label for="userHob">Basketbol</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Soyadi</td>
+          <td>
+            <input type="text" name="surname" />
+          </td>
+        </tr>
+        <tr>
+          <td>Cinsiyet</td>
+          <td>
+            <input type="radio" name="gender" />
+            <label for="gender">Erkek</label>
+            <input type="radio" name="gender" />
+            <label for="gende">Kadin</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Ilce</td>
+          <td>
+            <select name="ilce">
+              <option value="" disabled selected></option>
+              <option value="Kadikoy">Kadikoy</option>
+              <option value="Besiktas">Besiktas</option>
+              <option value="Atasehir">Atasehir</option>
+            </select>
+          </td>
+          <td>Profil <br />Fotografi</td>
+          <td>
+            <input type="text" disabled selected value="Dosya seciniz" />
+            <label for="files" class="btn">Browse</label>
+            <input id="files" style="visibility: hidden" type="file" />
+          </td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>
+            <input type="email" name="uEmail" />
+          </td>
+          <td>
+            Dogum <br />
+            Tarihi
+          </td>
+          <td>
+            <input type="date" name="uDob" />
+          </td>
+        </tr>
+        <tr>
+          <td>Kisisel Site</td>
+          <td>
+            <input type="url" name="uWeb" />
+          </td>
+          <td>Adres</td>
+          <td>
+            <textarea name="uAddress" id="" cols="20" rows="3"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Telefon</td>
+          <td>
+            <input type="tel" name="uTel" />
+          </td>
+          <td></td>
+          <td>
+            <input type="submit" name="uRegister" value="Kayit ol" />
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
