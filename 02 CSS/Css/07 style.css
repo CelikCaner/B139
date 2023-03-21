@@ -1,0 +1,35 @@
+body,
+html {
+  height: 100%;
+  font-size: 1rem;
+}
+
+.box1 {
+  background-color: aqua;
+  width: 3cm;
+  height: 30vh;
+}
+
+.box2 {
+  background-color: red;
+  width: 300px;
+}
+
+.box3 {
+  background-color: blue;
+  width: 50%;
+  height: 300px;
+  font-size: 2rem;
+}
+
+.box4 {
+  background-color: burlywood;
+  width: 50%;
+  height: 50%;
+  font-size: 1rem;
+}
+
+.box5 {
+  background-color: yellow;
+  width: 50vw;
+}
