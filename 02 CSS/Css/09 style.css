@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+a:hover {
+  color: red;
+  background-color: blue;
+}
+
+nav.main-menu {
+  background-color: rgb(220, 234, 245);
+}
+
+ul.main-menu {
+  list-style-type: '🦆';
+  list-style-position: inside;
+  padding: 0;
+}
+
+.main-menu-link {
+  padding: 5px;
+}
+
+.main-menu-link:hover {
+  color: white;
+  background-color: orange;
+}
