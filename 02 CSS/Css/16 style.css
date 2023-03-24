@@ -1,0 +1,16 @@
+nav.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  background-color: aqua;
+  display: none;
+}
+
+nav.menu button {
+  display: block;
+}
+
+nav.menu:hover ul {
+  display: inline-block;
+  background-color: blueviolet;
+}

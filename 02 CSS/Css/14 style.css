@@ -1,0 +1,14 @@
+.title {
+  background-color: aqua;
+  display: inline;
+}
+
+em {
+  background-color: red;
+  display: inline-block;
+  padding: 30px;
+}
+
+.hidden {
+  display: none;
+}
