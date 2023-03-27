@@ -1,0 +1,38 @@
+body {
+  background-image: url('../../img/resim2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-style: italic;
+}
+.menu {
+  background-color: aqua;
+  padding: 1rem;
+}
+.menu a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+.menu a:hover {
+  color: rgb(43, 226, 70);
+}
+.content {
+  background-color: rgba(229, 215, 197, 0.637);
+}
+.content p {
+  padding: 1rem;
+}
+.table h2 {
+  font-style: italic;
+}
+.table table {
+  background-color: beige;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}

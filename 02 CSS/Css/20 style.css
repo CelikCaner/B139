@@ -1,0 +1,16 @@
+nav.menu li {
+  color: red;
+}
+
+nav.menu > ul > li {
+  color: green;
+}
+
+nav.menu ul ul > li {
+  color: blue;
+}
+
+nav.menu ul ul > li:last-child {
+  font-weight: bold;
+  text-decoration: underline;
+}
