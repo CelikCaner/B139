@@ -1,0 +1,96 @@
+.price-list {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+#rows {
+  background-color: #363535;
+  font-weight: bold;
+  color: white;
+  width: 20px;
+}
+
+#rows th:nth-child(1),
+#rows th:nth-child(2) {
+  text-align: left;
+}
+
+#rows th:nth-child(4),
+#rows th:nth-child(5) {
+  text-align: right;
+}
+
+.table-body tr:hover {
+  color: #2d7695;
+  cursor: pointer;
+}
+
+.table-body tr:nth-child(odd) {
+  background-color: #cdcbcb;
+}
+
+.table-body tr:nth-child(even) {
+  background-color: #eeeded;
+}
+
+tbody td:nth-child(1),
+tbody td:nth-child(2) {
+  text-align: left;
+}
+
+tbody td:nth-child(3) {
+  text-align: center;
+}
+
+tbody td:nth-child(4),
+tbody td:nth-child(5) {
+  text-align: right;
+}
+
+.table-body a {
+  margin: 5px;
+  padding: 0;
+  color: black;
+}
+
+.table-body a:visited {
+  color: #e16060;
+}
+
+#footer {
+  background-color: #363535;
+  color: white;
+  text-align: right;
+  font-weight: bold;
+}
+
+#mode,
+#mode2 {
+  display: none;
+}
+
+.btn-mode {
+  display: inline-block;
+  background-color: #f07660;
+  color: white;
+  margin: 5px 5px;
+  padding: 5px 10px;
+}
+
+.btn-mode:hover {
+  color: #f7f5ab;
+  cursor: pointer;
+}
+
+.btn-mode a {
+  color: black;
+}
+
+.btn-mode a:visited {
+  color: #646262;
+}
+
+div.buttons {
+  display: inline-block;
+  padding-left: 50%;
+}

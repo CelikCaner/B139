@@ -1,11 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="Practice Css/03 style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="Practice Css/03 style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body></body>
+
+  <body>
+    <table border="1" class="price-list">
+      <thead>
+        <tr id="rows">
+          <th>
+            Urun <br />
+            Kodu
+          </th>
+          <th>Urun Adi</th>
+          <th>Miktar</th>
+          <th>
+            Birim <br />
+            Fiyat
+          </th>
+          <th>Ara <br />Toplam</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody class="table-body">
+        <tr>
+          <td>154654</td>
+          <td>Notebook</td>
+          <td>1</td>
+          <td>5.400$</td>
+          <td>5.400$</td>
+          <td>
+            <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+            <a href="#"><i class="fa-solid fa-trash-can"></i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>456466</td>
+          <td>Klavye</td>
+          <td>2</td>
+          <td>80$</td>
+          <td>160$</td>
+          <td>
+            <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+            <a href="#"><i class="fa-solid fa-trash-can"></i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>564646</td>
+          <td>Monitor</td>
+          <td>1</td>
+          <td>700$</td>
+          <td>700$</td>
+          <td>
+            <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+            <a href="#"><i class="fa-solid fa-trash-can"></i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>123598</td>
+          <td>Mouse</td>
+          <td>2</td>
+          <td>50$</td>
+          <td>100$</td>
+          <td>
+            <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+            <a href="#"><i class="fa-solid fa-trash-can"></i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>613448</td>
+          <td>Play Station</td>
+          <td>1</td>
+          <td>2.500$</td>
+          <td>2.500$</td>
+          <td>
+            <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+            <a href="#"><i class="fa-solid fa-trash-can"></i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>789799</td>
+          <td>Usb Bellek</td>
+          <td>3</td>
+          <td>5.400$</td>
+          <td>5.400$</td>
+          <td>
+            <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+            <a href="#"><i class="fa-solid fa-trash-can"></i></a>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot id="footer">
+        <tr>
+          <td colspan="4">Toplam</td>
+          <td>9.220$</td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div class="buttons">
+      <input type="checkbox" id="mode" />
+      <label for="mode" class="btn-mode">
+        <a href="#">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+        Alisverise Devam
+      </label>
+
+      <input type="checkbox" id="mode2" />
+      <label for="mode2" class="btn-mode">
+        <a href="#">
+          <i class="fa-solid fa-credit-card"></i>
+        </a>
+        Odemeye gec</label
+      >
+    </div>
+  </body>
 </html>
