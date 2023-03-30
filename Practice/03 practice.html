@@ -3,8 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>replit</title>
+    <title>Practice</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
+  <body>
+    <script
+      src="https://replit.com/public/js/replit-badge.js"
+      theme="blue"
+      defer
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -12,14 +20,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="style.css" />
 
-    <link href="Practice Css/03 style.css" rel="stylesheet" type="text/css" />
-  </head>
-
-  <body>
-    <table border="1" class="price-list">
+    <table class="price-list">
       <thead>
-        <tr id="rows">
+        <tr>
           <th>
             Urun <br />
             Kodu
@@ -30,7 +35,10 @@
             Birim <br />
             Fiyat
           </th>
-          <th>Ara <br />Toplam</th>
+          <th>
+            Ara <br />
+            Toplam
+          </th>
           <th></th>
         </tr>
       </thead>
@@ -104,28 +112,26 @@
       </tbody>
       <tfoot id="footer">
         <tr>
-          <td colspan="4">Toplam</td>
+          <td colspan="4">TOPLAM</td>
           <td>9.220$</td>
           <td></td>
         </tr>
       </tfoot>
     </table>
 
-    <div class="buttons">
+    <div id="button">
       <input type="checkbox" id="mode" />
       <label for="mode" class="btn-mode">
-        <a href="#">
-          <i class="fa-solid fa-cart-shopping"></i>
-        </a>
-        Alisverise Devam
+        <a>
+          <i class="fa-solid fa-cart-shopping"></i> </a
+        >Alisverise Devam
       </label>
 
       <input type="checkbox" id="mode2" />
       <label for="mode2" class="btn-mode">
-        <a href="#">
-          <i class="fa-solid fa-credit-card"></i>
-        </a>
-        Odemeye gec</label
+        <a>
+          <i class="fa-solid fa-credit-card"></i> </a
+        >Odemeye gec</label
       >
     </div>
   </body>

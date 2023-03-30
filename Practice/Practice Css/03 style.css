@@ -3,25 +3,36 @@
   font-family: 'Lato', sans-serif;
 }
 
-#rows {
+.price-list thead tr {
   background-color: #363535;
   font-weight: bold;
   color: white;
-  width: 20px;
 }
 
-#rows th:nth-child(1),
-#rows th:nth-child(2) {
+.price-list thead > tr > th:nth-child(1),
+.price-list thead > tr > th:nth-child(2) {
   text-align: left;
 }
 
-#rows th:nth-child(4),
-#rows th:nth-child(5) {
+.price-list thead > tr > th:nth-child(4),
+.price-list thead > tr > th:nth-child(5) {
   text-align: right;
 }
 
+thead > tr :last-child {
+  width: 4rem;
+}
+
+thead > tr > th {
+  padding: 5px;
+}
+
+.table-body td {
+  padding: 3px;
+}
+
 .table-body tr:hover {
-  color: #2d7695;
+  color: #459dd3;
   cursor: pointer;
 }
 
@@ -48,13 +59,16 @@ tbody td:nth-child(5) {
 }
 
 .table-body a {
-  margin: 5px;
-  padding: 0;
+  margin-left: 1rem;
   color: black;
 }
 
 .table-body a:visited {
   color: #e16060;
+}
+
+.table-body a:hover {
+  color: #e88330;
 }
 
 #footer {
@@ -64,9 +78,17 @@ tbody td:nth-child(5) {
   font-weight: bold;
 }
 
+#footer td {
+  padding: 5px;
+}
+
 #mode,
 #mode2 {
   display: none;
+}
+
+#button {
+  float: right;
 }
 
 .btn-mode {
@@ -74,7 +96,7 @@ tbody td:nth-child(5) {
   background-color: #f07660;
   color: white;
   margin: 5px 5px;
-  padding: 5px 10px;
+  padding: 8px 10px;
 }
 
 .btn-mode:hover {
@@ -88,9 +110,4 @@ tbody td:nth-child(5) {
 
 .btn-mode a:visited {
   color: #646262;
-}
-
-div.buttons {
-  display: inline-block;
-  padding-left: 50%;
 }
