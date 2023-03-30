@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70vh;
+}
+
+.container div:nth-child(1) {
+  background: aqua;
+  flex: 1 0 100px;
+}
+
+.container div:nth-child(2) {
+  background: rgb(38, 114, 44);
+  flex: 1 0 200px;
+}
+
+.container div:nth-child(3) {
+  background: rgb(57, 22, 114);
+  flex: 2 0 50px;
+}
+
+.container div:nth-child(4) {
+  background: rgb(133, 45, 60);
+}
+
+.container div:nth-child(5) {
+  background: rgb(209, 179, 12);
+}
