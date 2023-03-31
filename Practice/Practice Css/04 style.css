@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.menu {
+  display: none;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+input[type='checkbox']:checked ~ .menu {
+  display: flex;
+  flex-direction: column;
+}
+
+#reveal-menu {
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+.menu {
+  width: 20vh;
+  background-color: #a39f9f;
+  color: white;
+}
+
+.menu div {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+#header {
+  background-color: #464444;
+  margin: 0;
+  padding: 5px;
+}
