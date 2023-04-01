@@ -4,10 +4,6 @@ body {
   width: 100%;
 }
 
-.menu {
-  display: none;
-}
-
 input[type='checkbox'] {
   display: none;
 }
@@ -17,12 +13,8 @@ input[type='checkbox']:checked ~ .menu {
   flex-direction: column;
 }
 
-#reveal-menu {
-  cursor: pointer;
-  margin-bottom: 2px;
-}
-
 .menu {
+  display: none;
   width: 20vh;
   background-color: #a39f9f;
   color: white;
@@ -34,8 +26,13 @@ input[type='checkbox']:checked ~ .menu {
   padding: 5px;
 }
 
-#header {
+.menu > :first-child {
   background-color: #464444;
   margin: 0;
   padding: 5px;
+}
+
+.btn > i {
+  cursor: pointer;
+  margin-bottom: 2px;
 }
