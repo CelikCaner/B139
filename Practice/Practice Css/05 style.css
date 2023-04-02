@@ -1,0 +1,169 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  --color1: #432343;
+  --color2: white;
+  --color3: #5b335b;
+  --color4: #7c7979;
+}
+
+body {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  background-color: var(--color1);
+}
+
+.box1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  height: 80vh;
+  padding-left: 16vh;
+  padding-right: 16vh;
+  padding-bottom: 6vh;
+}
+
+.box2 {
+  border-radius: 10px 0px 0px 10px;
+  background-color: var(--color2);
+  flex: 1.5;
+}
+
+.box3 {
+  background-image: url(img/bg-login.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  flex: 2;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.container h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 6vh;
+}
+
+.container button {
+  background-color: var(--color1);
+  color: var(--color2);
+  font-family: 'Open Sans';
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 45px;
+  margin-top: 16vh;
+  cursor: pointer;
+}
+
+.container button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.container button span:after {
+  content: '\00bb';
+  font-size: 16px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.container button:hover {
+  background-color: var(--color3);
+}
+
+.container button:hover span {
+  padding-right: 9px;
+}
+
+.container button:hover span:after {
+  opacity: 1;
+}
+
+.container > #un,
+#pass {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--color4);
+  font-family: 'Open Sans';
+  font-weight: 700;
+  padding: 5px;
+  margin: 15px;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-transform: uppercase;
+  color: var(--color2);
+}
+
+.container2 h2 {
+  font-size: 36px;
+  margin: 4px;
+}
+
+.container2 > div {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.chkbox #chk {
+  display: none;
+}
+
+.chkbox label {
+  display: flex;
+  margin-top: 14px;
+  padding: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color4);
+  cursor: pointer;
+}
+
+.chkbox label::before {
+  content: ' ';
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--color4);
+  border-radius: 18px;
+  margin-right: 3.5px;
+  margin-top: -4.8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.chkbox > label > i {
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.chkbox > label > span {
+  color: var(--color4);
+  margin: -3.5px -3.5px;
+  padding-left: 5px;
+}
+
+/* .chkbox > input[type='checkbox']:checked{
+  } */
