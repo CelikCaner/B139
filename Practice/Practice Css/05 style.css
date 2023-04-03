@@ -24,9 +24,9 @@ body {
   flex-wrap: wrap;
   flex: 1;
   height: 80vh;
-  padding-left: 16vh;
-  padding-right: 16vh;
-  padding-bottom: 6vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-bottom: 8vh;
 }
 
 .box2 {
@@ -36,7 +36,7 @@ body {
 }
 
 .box3 {
-  background-image: url(img/bg-login.jpg);
+  background-image: url(../../img/bg-login.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -75,6 +75,7 @@ body {
   display: inline-block;
   position: relative;
   transition: 0.3s;
+  text-transform: uppercase;
 }
 
 .container button span:after {
@@ -149,7 +150,7 @@ body {
   border: 2px solid var(--color4);
   border-radius: 18px;
   margin-right: 3.5px;
-  margin-top: -4.8px;
+  margin-top: -3.8px;
   font-size: 14px;
   font-weight: 600;
 }
