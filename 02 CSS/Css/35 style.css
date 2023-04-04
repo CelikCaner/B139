@@ -1,0 +1,11 @@
+nav.menu {
+  background-color: rgba(0, 195, 255, 0.801);
+  position: fixed;
+  z-index: 5px;
+}
+
+table.price-list thead {
+  background-color: bisque;
+  position: sticky;
+  top: 50px;
+}
