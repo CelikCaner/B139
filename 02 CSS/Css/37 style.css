@@ -4,3 +4,7 @@
   background-color: red;
   transform: translate(50%, 300px);
 }
+
+.img-iphone {
+  transform: rotate(-60deg) scale(0.5) translateX(30deg);
+}
