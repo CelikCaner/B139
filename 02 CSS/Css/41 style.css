@@ -1,0 +1,25 @@
+.boxes div {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxes div {
+}
+
+.boxes div:nth-child(1) {
+  box-shadow: 0 5px 25px black;
+}
+
+.boxes div:nth-child(2) {
+  box-shadow: 0 25px 45px -10px orange; /*x y blur spread color*/
+}
+
+.boxes div:nth-child(3) {
+  box-shadow: 0 0px 25px blue;
+}
