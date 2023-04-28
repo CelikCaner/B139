@@ -30,7 +30,8 @@
           aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span> Menu
+          <span class="navbar-toggler-icon"></span>
+          <span class="d-none d-sm-inline">Menu</span>
         </button>
         <a class="navbar-brand" href="#"
           ><img src="img/audi-logo.png" alt="" width="150"
@@ -73,20 +74,18 @@
               </li>
             </ul>
 
-            <div>
-              <div>
-                <button class="btn btn-search">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-                <span>Search</span>
-                <span class="v-line"></span>
-                <div class="toolbar">
-                  <img src="img/tr.svg" alt="" />
-                  <ul>
-                    <li>Audi in your Region:</li>
-                    <li>Turkey</li>
-                  </ul>
-                </div>
+            <div class="toolbar">
+              <div class="btn-search d-none d-lg-block">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <span class="d-none d-lg-block">Search</span>
+              <span class="v-line d-none d-lg-block"></span>
+              <div class="lang">
+                <img src="img/tr.svg" alt="" />
+                <ul>
+                  <li>Audi in your Region:</li>
+                  <li>Turkey</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -98,9 +97,142 @@
       </div>
     </nav>
     <section class="slider">
+      <div class="content">
+        <h1>Audi Report 2022</h1>
+        <h5>
+          Welcome to the Audi Report 2022, the combined annual and
+          sustainability report of AUDI AG.
+        </h5>
+        <button class="btn btn-outline-light">Learn more</button>
+      </div>
       <video autoplay muted loop>
         <source src="video/audi.webm" type="video/webm" />
       </video>
+    </section>
+    <section class="topics container">
+      <h2>Current topics from the world of Audi</h2>
+      <div class="row row-cols-1 row-cols-xl-3 g-5">
+        <div class="col">
+          <div class="card zoom h-100">
+            <div class="card-img">
+              <img
+                src="./img/1920x1080_Aufmacher_STATISCH_Markengruppe_Premium.avif"
+                class="card-img-top"
+                alt=""
+              />
+            </div>
+
+            <div class="card-body">
+              <div class="card-subtitle">
+                Operations & Integrity -- 03/16/2023
+              </div>
+              <h2 class="card-title">
+                Premium brand group: strong brands among equals
+              </h2>
+              <p class="card-text">
+                Four wins! Audi, Lamborghini, Ducati and Bentley became even
+                stronger by merging into the Premium brand group. An overview of
+                how the figures have developed and what highlights marked 2022.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card zoom h-100">
+            <div class="card-img">
+              <img
+                src="img/AR22_Vorstand-Collage_1920x1440.avif"
+                class="card-img-top"
+                alt=""
+              />
+            </div>
+
+            <div class="card-body">
+              <div class="card-subtitle">Annual Report -- 03/16/2023</div>
+              <h2 class="card-title">
+                This team is steering the Premium brand group successfully
+                through challenging times
+              </h2>
+              <p class="card-text">
+                In 2022, the automotive industry was tested by a number of
+                global crises. The Premium brand group passed this test and
+                posted a record result. This is clear evidence of the resilience
+                of Audi, Bentley, Lamborghini and Ducati and, at the same time,
+                delivers the motivation to increase this resilience still
+                further. Through these projects and strategies, the Board of
+                Management is increasing the competitiveness of the Premium
+                brand group to place it on a sound footing for the future.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card zoom h-100">
+            <div class="card-img">
+              <img
+                src="img/DT_aufmacher_1920x700_material-loop_01.gif"
+                class="card-img-top"
+                alt=""
+              />
+            </div>
+
+            <div class="card-body">
+              <div class="card-subtitle">
+                Value Creation & Production -- 03/16/2023
+              </div>
+              <h2 class="card-title">
+                Premium brand group: strong brands among equals
+              </h2>
+              <p class="card-text">
+                Four wins! Audi, Lamborghini, Ducati and Bentley became even
+                stronger by merging into the Premium brand group. An overview of
+                how the figures have developed and what highlights marked 2022.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="properties container">
+      <div class="row">
+        <div class="col-lg-5">
+          <h3>Full electric speed ahead</h3>
+          <p>
+            Audi recently underpinned its clear course toward electromobility
+            with strong figures and important milestones. How the Four Rings are
+            progressing on their path to successful electrification.
+          </p>
+          <button class="btn btn-outline-dark">Read more</button>
+        </div>
+        <div class="col-lg-7">
+          <img
+            src="img/KV1-RS e-tron_GrandSphere_RGB4_1920x1080.webp"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="row flex-row-reverse">
+        <div class="col-lg-5">
+          <h3>Audi Career: We are progress. With you.</h3>
+          <p>
+            Progress is what you bring with you. At Audi we want to offer you
+            the freedom to use and develop this progress. With flexible working
+            hours. With an in-house further education academy. With projects
+            which combine 100 years of experience in premium mobility with an
+            electrified future. For a world that we keep on the move together -
+            with you.
+          </p>
+          <button class="btn btn-outline-dark">Read more</button>
+        </div>
+        <div class="col-lg-7">
+          <img
+            src="img/1920x1080-desktop-career-campaign-Keyvisual_02_PPT.webp"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+      </div>
     </section>
 
     <script
