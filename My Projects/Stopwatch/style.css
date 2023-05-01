@@ -1,0 +1,26 @@
+body {
+  height: 100%;
+  background-color: #ececec;
+}
+
+.container {
+  font-size: 2rem;
+  font-weight: 300;
+  background-color: #ffa600;
+  color: white;
+  border-color: #ffa600;
+}
+
+.container button {
+  align-items: center;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  color: white;
+  width: 10vh;
+  height: auto;
+}
+
+.container button:hover {
+  background-color: white;
+  color: #ffa600;
+}
