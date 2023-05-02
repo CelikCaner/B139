@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logical Operators</title>
+  </head>
+  <body>
+    <script>
+      let x = false;
+      let y = true;
+      let z = true;
+      let t = 'false';
+      let m = 'kedi';
+      let n = 'kuş';
+      // && ile bağlanmış mantıksal yapılarda eğer false a rastlanırsa sonuç o anda false olur
+      // ancak false bulunamazsa en sonki eleman değer olarak alınır.
+      const comp1 = y && x && z;
+      console.log(comp1);
+      const comp2 = x || t;
+      console.log(comp2);
+      const comp3 = y && z && m;
+      console.log(comp3);
+      const comp4 = m && y && z;
+      console.log(comp4);
+      const comp5 = m && y && x && z;
+      console.log(comp5);
+      if (y && z && m) {
+        alert('TAmam');
+      }
+      if (y && null) {
+        alert('test');
+      }
+    </script>
+  </body>
+</html>
