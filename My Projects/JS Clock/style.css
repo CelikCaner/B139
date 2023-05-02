@@ -1,0 +1,13 @@
+body {
+  background-color: #343434;
+}
+
+#clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #00ced1;
+  font-weight: 400;
+  font-size: 5rem;
+}
