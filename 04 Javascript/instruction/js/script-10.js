@@ -19,3 +19,14 @@ const spanEls = document.querySelectorAll('#aboutUs span');
 console.log(spanEls);
 
 spanEls[0].innerText = 'HELLOOOO';
+
+//this code chose the 2nd list element and added it to the end of the last list element
+const listItemText = document.querySelector('.menu li:nth-child(2)').innerText;
+console.log(listItemText);
+document.querySelector('.menu li:last-child').innerText += listItemText;
+
+//this code chooses the 4th list element and changes it with a bold 'hello'
+const listItem4El = document.querySelector('.menu li:nth-child(4)');
+listItem4El.innerHTML = '<b>hello</b>';
+
+//
