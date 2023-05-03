@@ -29,4 +29,10 @@ document.querySelector('.menu li:last-child').innerText += listItemText;
 const listItem4El = document.querySelector('.menu li:nth-child(4)');
 listItem4El.innerHTML = '<b>hello</b>';
 
-//
+//classList chooses the classes of the element
+const pageTitleEl = document.querySelector('#pageTitle');
+console.log(pageTitleEl.classList);
+pageTitleEl.classList.add('title'); //with add method we can add it a new class
+
+const aboutUs2 = document.querySelector('#aboutUs');
+aboutUs2.classList.add('bg-blue');

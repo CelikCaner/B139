@@ -1,0 +1,10 @@
+.title {
+  color: rgb(0, 140, 255);
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bg-blue {
+  background-color: rgb(255, 174, 0);
+}
