@@ -1,0 +1,18 @@
+.container {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.custom {
+  width: 50px;
+  margin: 2px;
+  padding: 2px;
+}
+
+.card-body {
+  height: 28vh;
+  width: 38vh;
+}
