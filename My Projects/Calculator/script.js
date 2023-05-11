@@ -5,7 +5,6 @@ const equals = document.querySelector('#equals');
 const display = (event) => {
   const clickedButton = event.target;
   const clickedValue = clickedButton.innerText;
-  console.log(clickedValue);
   displayArea.value += clickedValue;
 };
 
