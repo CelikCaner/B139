@@ -34,7 +34,7 @@ document.getElementById('tblStudents').addEventListener('click', (e) => {
   if (e.target.classList.contains('btn-del')) {
     const name = e.target.closest('tr').children[1].innerText;
 
-    const result = confirm(`${name} isimli kaydı silmek istiyor musunuz?`);
+    const result = confirm(`${name} isimli kaydi silmek istiyor musunuz?`);
     if (result) {
       //...
     }
