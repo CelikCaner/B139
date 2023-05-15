@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Practice 2</title>
+  </head>
+  <body>
+    <header><h1>DOM</h1></header>
+    <main>
+      <ul class="list">
+        <li>Lorem. <span>➡️</span></li>
+        <li>Reprehenderit.<span>➡️</span></li>
+        <li>Aut.<span>➡️</span></li>
+        <li>Dignissimos.<span>➡️</span></li>
+        <li>Consectetur.<span>➡️</span></li>
+      </ul>
+    </main>
+
+    <script>
+      //closest
+      const spanEls = document.querySelectorAll('.list li span');
+
+      spanEls.forEach((span) => {
+        span.addEventListener('click', (e) => {
+          const li = e.target.closest('li');
+          li.style.backgroundColor = 'yellow';
+        });
+      });
+
+      // closest parentlarda arar, parent yapısı içinde olmayan elemanlara ortak parent üzerinden erişilebilir.
+      const header = document
+        .querySelector('.list li:nth-child(4)')
+        .closest('body')
+        .querySelector('header');
+      console.log(header);
+
+      //children
+    </script>
+  </body>
+</html>
