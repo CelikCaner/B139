@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debugging</title>
+  </head>
+  <body>
+    <button id="btn">Click me</button>
+    <script>
+      const multiply = (num) => {
+        let result = 0;
+        if (num > 3) {
+          result = num * 2;
+        } else {
+          result = num * 3;
+        }
+        return result;
+      };
+      document.querySelector('#btn').addEventListener('click', () => {
+        let total = 0;
+
+        for (let i = 0; i < 5; i++) {
+          total += i * 3 + multiply(i);
+        }
+      });
+    </script>
+  </body>
+</html>
