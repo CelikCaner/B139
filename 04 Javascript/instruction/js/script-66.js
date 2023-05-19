@@ -1,4 +1,4 @@
-import showAlert, { showConfirm } from '../js/message(script-66).js';
+import showAlert, { showConfirm } from './modules/message(script-66).js';
 document.getElementById('btnAlert').addEventListener('click', () => {
   showAlert('Hello Module');
 });

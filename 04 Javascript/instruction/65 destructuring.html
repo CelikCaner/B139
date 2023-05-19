@@ -26,6 +26,22 @@
       const { name, floor } = department;
       const message2 = `${firstName} ${lastName} isimli personel ${age}. yaşına girdi. ${name}  departmanında çalışıyor`;
       console.log(message2);
+
+      const sayHello1 = (firstName, lastName) => {
+        alert(`Hello ${firstName} ${lastName}`);
+      };
+
+      const sayHello2 = (p) => {
+        alert(`Hello ${p.firstName} ${p.lastName}`);
+      };
+      // Destruturing yapılarak parametrelerin alınması
+      const sayHello3 = ({ firstName, lastName }) => {
+        alert(`Hello ${firstName} ${lastName}`);
+      };
+      sayHello1('Ali', 'Gel');
+      sayHello1(person.firstName, person.lastName);
+      sayHello2(person);
+      sayHello3(person);
     </script>
   </body>
 </html>
