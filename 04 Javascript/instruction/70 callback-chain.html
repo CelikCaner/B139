@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Callback Chain</title>
+  </head>
+  <body>
+    <script>
+      const siparisVer = (cb) => {
+        console.log('Siparis verildi');
+        setTimeout(() => {
+          console.log('Siparis hazir');
+          cb();
+        }, 3000);
+      };
+
+      const yemekYe = (cb) => {
+        console.log('Yemege başladik');
+        setTimeout(() => {
+          console.log('Yemek yendi');
+          cb();
+        }, 2000);
+      };
+
+      const filmIzle = () => {
+        console.log('Film başladi');
+        setTimeout(() => {
+          console.log('Film bitti');
+        }, 2000);
+      };
+
+      const patlakMisirYe = () => {
+        console.log('Patlamis misir yemeğe başladık');
+        setTimeout(() => {
+          console.log('Patlamis misir bitti');
+        }, 1500);
+      };
+
+      siparisVer(() => {
+        yemekYe(() => {
+          filmIzle();
+          patlakMisirYe();
+        });
+      });
+    </script>
+  </body>
+</html>
