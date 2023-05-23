@@ -23,12 +23,14 @@ const createMovies = (shows) => {
 };
 
 const createMovieCard = (item) => {
+  const { image, name, genres } = item.show;
+
   return `    <div class="col">
 	<div class="card h-100">
-	  <img src="" class="card-img-top" alt="..." />
+	  <img src="${image.medium}" class="card-img-top" alt="${name}." />
 	  <div class="card-body">
-		<h5 class="card-title">Card title</h5>
-		<p class="card-text">Film türleri</p>
+		<h5 class="card-title">${name}</h5>
+		<p class="card-text">${genres.join('-')}</p>
 	  </div>
 	</div>
   </div>`;
