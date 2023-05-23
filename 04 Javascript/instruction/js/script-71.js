@@ -25,9 +25,14 @@ const createMovies = (shows) => {
 const createMovieCard = (item) => {
   const { image, name, genres } = item.show;
 
+  let movieImage = '../../img/no-image-placeholder.svg.png';
+  if (image) {
+    movieImage = image.medium;
+  }
+
   return `    <div class="col">
 	<div class="card h-100">
-	  <img src="${image.medium}" class="card-img-top" alt="${name}." />
+	  <img src="${movieImage}" class="card-img-top" alt="${name}." />
 	  <div class="card-body">
 		<h5 class="card-title">${name}</h5>
 		<p class="card-text">${genres.join('-')}</p>
