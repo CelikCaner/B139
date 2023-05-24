@@ -7,6 +7,11 @@ const searchShows = (query, callback) => {
     .then((data) => callback(data));
 };
 
-const getShowDetails = () => {};
+const getShowDetails = (showId, callback) => {
+  const url = `${baseUrl}/shows/${showId}`;
+  fetch(url)
+    .then((response) => response.json())
+    .then((data) => callback(data));
+};
 
 export { searchShows, getShowDetails };
