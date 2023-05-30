@@ -1,4 +1,5 @@
 import { setItem } from './utils/storage';
+import './index.css';
 
 alert('Hi webpack');
 
