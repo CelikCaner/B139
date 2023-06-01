@@ -6,14 +6,34 @@ const Jsx4 = () => {
     'Michael Chen',
     'Sarah Kim',
     'Ahmed Hassan',
+    'Sarah Kim',
   ];
   const cities = ['Miami', 'Toronto', 'Seoul', 'Cairo'];
 
-  names.map((name) => {
-    return <div>{name}</div>;
-  });
+  // const nameInfo = names.map((name, index) => {
+  //     return <div>{name}</div>
+  // });
 
-  return <div>Jsx4</div>;
+  const nameInfo = names.map((name, index) => <div>{name}</div>);
+
+  const check = true;
+
+  console.log(nameInfo);
+
+  return (
+    <div>
+      <ul>
+        {names.map((name, index) => (
+          <li key={index}>{name}</li>
+        ))}
+      </ul>
+      <select>
+        {cities.map((city, index) => (
+          <option key={index}>{city}</option>
+        ))}
+      </select>
+    </div>
+  );
 };
 
 export default Jsx4;
