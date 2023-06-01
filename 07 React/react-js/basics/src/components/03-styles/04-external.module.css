@@ -1,0 +1,12 @@
+.externalModuleStyling {
+  color: blueviolet;
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid blueviolet;
+  border-radius: 1.5rem;
+}
+
+.title {
+  color: orange;
+  text-align: center;
+}
