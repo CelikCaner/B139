@@ -24,7 +24,7 @@ export default function InternalStyling() {
         numquam nemo aliquam saepe itaque facilis, tempore officiis, cumque
         odio?
       </p>
-      {/* INTERNAL and EXTERNAL STYLING */}
+      {/* INTERNAL and INLINE STYLING */}
       <p
         style={{
           ...styleTitle,
