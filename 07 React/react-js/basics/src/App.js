@@ -10,6 +10,10 @@ import ExternalStyling from './components/03-styles/03-external-styling';
 import ExternalModuleStyling from './components/03-styles/04-external-module-styling';
 import SassScss from './components/03-styles/05-sass-scss';
 import DijitalSaatUygulamasi1 from './components/04-dijital-saat-uygulamasi1/dijital-saat-uygulamasi1';
+import Greetings from './components/05-props/01-greetings';
+import Products from './components/05-props/05-products';
+import DijitalSaatUygulamasi2 from './components/06-dijital-saat-uygulamasi2/dijital-saat-uygulamasi2';
+import Image from './components/07-images/01-image';
 
 export default function App() {
   return (
@@ -39,6 +43,15 @@ export default function App() {
       <SassScss />
       <br />
       <DijitalSaatUygulamasi1 />
+      <br />
+      <Greetings />
+      <br />
+      <Products />
+      <br />
+      <DijitalSaatUygulamasi2 textColor="white" bgColor="red" />
+      <br />
+      <Image />
+      <br />
       <br />
     </>
   );
