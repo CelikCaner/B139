@@ -1,7 +1,14 @@
 import React from 'react';
 import './profile-card.scss';
+import Statistics from './statistics/statistics';
 
-const ProfileCard = () => {
+const statisticsInfo = [
+  { title: 'Shot', stat: 2 },
+  { title: 'Followers', stat: 234 },
+  { title: 'Following', stat: 327 },
+];
+
+const ProfileCard = (props) => {
   const img = require(`../../assets/img/profile-card.jpg`);
   const profileBackground = {
     backgroundImage: `url(${img})`,
@@ -15,7 +22,15 @@ const ProfileCard = () => {
         <h3>Walker</h3>
         <h5>Nasvhille, Tennesse</h5>
         <div className="stats">
-          <div>
+          {statisticsInfo.map((item, index) => (
+            <Statistics title={item.title} stat={item.stat} key={index} />
+          ))}
+
+          {/* <Statistics title="Shot" stat={2} />
+          <Statistics title="Followers" stat={234} />
+          <Statistics title="Following" stat={327} /> */}
+
+          {/* <div>
             <h2>2</h2>
             <span>Shot</span>
           </div>
@@ -26,7 +41,7 @@ const ProfileCard = () => {
           <div>
             <h2>327</h2>
             <span>Following</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
