@@ -14,6 +14,8 @@ import Greetings from './components/05-props/01-greetings';
 import Products from './components/05-props/05-products';
 import DijitalSaatUygulamasi2 from './components/06-dijital-saat-uygulamasi2/dijital-saat-uygulamasi2';
 import Image from './components/07-images/01-image';
+import ImageGallery from './components/07-images/02-image-gallery';
+import ProfileCard from './components/08-profile-card/profile-card';
 
 export default function App() {
   return (
@@ -51,6 +53,10 @@ export default function App() {
       <DijitalSaatUygulamasi2 textColor="white" bgColor="red" />
       <br />
       <Image />
+      <br />
+      <ImageGallery />
+      <br />
+      <ProfileCard />
       <br />
       <br />
     </>
