@@ -16,6 +16,18 @@ import DijitalSaatUygulamasi2 from './components/06-dijital-saat-uygulamasi2/dij
 import Image from './components/07-images/01-image';
 import ImageGallery from './components/07-images/02-image-gallery';
 import ProfileCard from './components/08-profile-card/profile-card';
+import BootstrapKlasikYontem from './components/09-bootstrap/01-bootstrap-klasik-yontem';
+
+const profileCardData = {
+  name: 'Emir',
+  location: 'New York',
+  image: 'person4.jpg',
+  statistics: [
+    { title: 'Likes', stat: 145 },
+    { title: 'Photos', stat: 7 },
+    { title: 'Following', stat: 329 },
+  ],
+};
 
 export default function App() {
   return (
@@ -66,6 +78,7 @@ export default function App() {
           { title: 'Following', stat: 327 },
         ]}
       />
+      <br />
       <ProfileCard
         name="Kyle"
         location="London"
@@ -76,6 +89,10 @@ export default function App() {
           { title: 'Following', stat: 10 },
         ]}
       />
+      <br />
+      <ProfileCard {...profileCardData} />
+      <br />
+      <BootstrapKlasikYontem />
       <br />
       <br />
     </>
