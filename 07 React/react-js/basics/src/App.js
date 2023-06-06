@@ -56,7 +56,26 @@ export default function App() {
       <br />
       <ImageGallery />
       <br />
-      <ProfileCard />
+      <ProfileCard
+        name="Walker"
+        location="Nashville, Tennesse"
+        image="profile-card.jpg"
+        statistics={[
+          { title: 'Shot', stat: 2 },
+          { title: 'Follower', stat: 234 },
+          { title: 'Following', stat: 327 },
+        ]}
+      />
+      <ProfileCard
+        name="Kyle"
+        location="London"
+        image="profile.jpg"
+        statistics={[
+          { title: 'Likes', stat: 50 },
+          { title: 'Photos', stat: 12 },
+          { title: 'Following', stat: 10 },
+        ]}
+      />
       <br />
       <br />
     </>
