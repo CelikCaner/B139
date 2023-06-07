@@ -17,6 +17,10 @@ import Image from './components/07-images/01-image';
 import ImageGallery from './components/07-images/02-image-gallery';
 import ProfileCard from './components/08-profile-card/profile-card';
 import BootstrapKlasikYontem from './components/09-bootstrap/01-bootstrap-klasik-yontem';
+import BootstrapModernYontem from './components/09-bootstrap/02-bootstrap-modern-yontem';
+import './assets/scss/style.scss';
+import ReactIcons from './components/10-icons/01-react-icons';
+import MaterialIcons from './components/10-icons/02-material-icons';
 
 const profileCardData = {
   name: 'Emir',
@@ -94,6 +98,11 @@ export default function App() {
       <br />
       <BootstrapKlasikYontem />
       <br />
+      <BootstrapModernYontem />
+      <br />
+      <ReactIcons />
+      <br />
+      <MaterialIcons />
       <br />
     </>
   );
