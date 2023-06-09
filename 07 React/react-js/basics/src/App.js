@@ -22,6 +22,8 @@ import './assets/scss/style.scss';
 import ReactIcons from './components/10-icons/01-react-icons';
 import MaterialIcons from './components/10-icons/02-material-icons';
 import Events from './components/11-events/events';
+import ProductShop from './components/12-product-shop/product-shop';
+import State from './components/13-usestate/01-state';
 
 const profileCardData = {
   name: 'Emir',
@@ -106,6 +108,10 @@ export default function App() {
       <MaterialIcons />
       <br />
       <Events />
+      <br />
+      <ProductShop />
+      <br />
+      <State />
       <br />
       <br />
     </>
