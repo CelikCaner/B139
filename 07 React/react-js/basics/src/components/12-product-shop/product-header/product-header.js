@@ -13,10 +13,10 @@ const ProductHeader = ({ numberA = 10 }) => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Ana Sayfa</Nav.Link>
-            <Nav.Link href="#action2">Urunler</Nav.Link>
-            <Nav.Link href="#">Hakkimizda</Nav.Link>
-            <Nav.Link href="#">Bize Ulasin</Nav.Link>
+            <Nav.Link href="#action1">Main Page</Nav.Link>
+            <Nav.Link href="#action2">Products</Nav.Link>
+            <Nav.Link href="#">About Us</Nav.Link>
+            <Nav.Link href="#">Contact</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
