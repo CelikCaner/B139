@@ -33,6 +33,8 @@ import { Button } from 'react-bootstrap';
 import DijitalSaatUygulamasi3 from './components/17-dijital-saat-uygulamasi3/dijital-saat-uygulamasi3';
 import FilterList from './components/18-filter-list/filter-list';
 import UseRef from './components/19-useref/useref';
+import ClassTurundeComponentler from './components/20-component-turleri/01-class-turunde-componentler';
+import FonksiyonTurundeComponentler from './components/20-component-turleri/02-fonksiyon-turunde-componentler';
 
 const profileCardData = {
   firstName: 'Emir',
@@ -144,6 +146,10 @@ export default function App() {
       <FilterList />
       <br />
       <UseRef />
+      <br />
+      <ClassTurundeComponentler />
+      <br />
+      <FonksiyonTurundeComponentler />
       <br />
       <br />
     </>

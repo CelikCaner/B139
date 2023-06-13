@@ -14,11 +14,9 @@ const Jsx4 = () => {
   //     return <div>{name}</div>
   // });
 
-  const nameInfo = names.map((name, index) => <div>{name}</div>);
+  //   const nameInfo = names.map((name, index) => <div>{name}</div>);
 
   //   const check = true;
-
-  console.log(nameInfo);
 
   return (
     <div>
