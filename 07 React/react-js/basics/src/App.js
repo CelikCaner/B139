@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Apples, { Bananas1, Orange } from './components/01-my-house';
 import Jsx1 from './components/02-jsx/01-jsx';
 import Jsx2 from './components/02-jsx/02-jsx';
@@ -18,17 +18,24 @@ import ImageGallery from './components/07-images/02-image-gallery';
 import ProfileCard from './components/08-profile-card/profile-card';
 import BootstrapKlasikYontem from './components/09-bootstrap/01-bootstrap-klasik-yontem';
 import BootstrapModernYontem from './components/09-bootstrap/02-bootstrap-modern-yontem';
-import './assets/scss/style.scss';
 import ReactIcons from './components/10-icons/01-react-icons';
 import MaterialIcons from './components/10-icons/02-material-icons';
 import Events from './components/11-events/events';
+
+// STYLE IMPORT
+import './assets/scss/style.scss';
 import ProductShop from './components/12-product-shop/product-shop';
 import State from './components/13-usestate/01-state';
 import Counter1 from './components/14-counter1/counter1';
 import Birthday from './components/15-birthday/birthday';
+import UseEffect from './components/16-useeffect/useeffect';
+import { Button } from 'react-bootstrap';
+import DijitalSaatUygulamasi3 from './components/17-dijital-saat-uygulamasi3/dijital-saat-uygulamasi3';
+import FilterList from './components/18-filter-list/filter-list';
+import UseRef from './components/19-useref/useref';
 
 const profileCardData = {
-  name: 'Emir',
+  firstName: 'Emir',
   location: 'New York',
   image: 'person4.jpg',
   statistics: [
@@ -39,6 +46,8 @@ const profileCardData = {
 };
 
 export default function App() {
+  const [show, setShow] = useState(true);
+
   return (
     <>
       <Apples />
@@ -100,6 +109,12 @@ export default function App() {
       />
       <br />
       <ProfileCard {...profileCardData} />
+      {/* <ProfileCard
+                name={profileCardData.firstName}
+                location={profileCardData.location}
+                image={profileCardData.image}
+                statistics={profileCardData.statistics}
+            /> */}
       <br />
       <BootstrapKlasikYontem />
       <br />
@@ -118,6 +133,17 @@ export default function App() {
       <Counter1 />
       <br />
       <Birthday />
+      <br />
+      <Button onClick={() => setShow((prev) => !prev)}>
+        use Effect Hook'unu Gizle
+      </Button>
+      {show && <UseEffect />}
+      <br />
+      <DijitalSaatUygulamasi3 textColor="gold" bgColor="brown" />
+      <br />
+      <FilterList />
+      <br />
+      <UseRef />
       <br />
       <br />
     </>
