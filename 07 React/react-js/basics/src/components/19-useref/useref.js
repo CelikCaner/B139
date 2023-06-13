@@ -10,7 +10,7 @@ const UseRef = () => {
     buttonRef.current.style.backgroundColor = 'red';
   };
 
-  console.log('render');
+  //   console.log('render');
 
   return (
     <Container>

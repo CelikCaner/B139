@@ -2,14 +2,14 @@ import React from 'react';
 
 const Welcome1 = (props) => {
   // props'u dogrudan alarak obje icinden ilgili key'i sayfamiza yerlestirebiliriz
-  console.log(props);
+  //   console.log(props);
 
   // const newObject = {
   //     name: "Ozgur",
   //     age: "Aktas"
   // }
 
-  console.log(props.disabled);
+  //   console.log(props.disabled);
 
   return (
     <div className="welcome">

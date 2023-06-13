@@ -28,7 +28,7 @@ class ClassTurundeComponentler extends Component {
   }
 
   render() {
-    console.log('CTC: ilk burasi calisir');
+    // console.log('CTC: ilk burasi calisir');
     // console.log(this);
     return (
       <Container>
