@@ -36,6 +36,8 @@ import UseRef from './components/19-useref/useref';
 import ClassTurundeComponentler from './components/20-component-turleri/01-class-turunde-componentler';
 import FonksiyonTurundeComponentler from './components/20-component-turleri/02-fonksiyon-turunde-componentler';
 import Fetch from './components/21-fetch/01-fetch';
+import Fetch2 from './components/21-fetch/02-fetch';
+import UserCard from './components/21-fetch/02-user-card';
 
 const profileCardData = {
   firstName: 'Emir',
@@ -153,6 +155,10 @@ export default function App() {
       <FonksiyonTurundeComponentler />
       <br />
       <Fetch />
+      <br />
+      <Fetch2 />
+      <br />
+      <UserCard />
       <br />
       <br />
     </>
