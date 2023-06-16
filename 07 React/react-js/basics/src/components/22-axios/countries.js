@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { Container, Table } from 'react-bootstrap';
 import axios from 'axios';
 import Country from './country';
+
 const Countries = () => {
   const [countries, setCountries] = useState([]);
   const [loading, setLoading] = useState(true);
+
   const loadCountriesData = async () => {
     try {
       const response = await axios.get('https://restcountries.com/v3.1/all');
@@ -23,9 +25,11 @@ const Countries = () => {
       setLoading(false);
     }
   };
+
   useEffect(() => {
     loadCountriesData();
   }, []);
+
   return (
     <Container>
       <h2>Axios - Countries</h2>

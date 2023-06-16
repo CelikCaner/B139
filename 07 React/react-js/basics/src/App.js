@@ -39,6 +39,7 @@ import Fetch from './components/21-fetch/01-fetch';
 import Fetch2 from './components/21-fetch/02-fetch';
 import UserCard from './components/21-fetch/02-user-card';
 import Countries from './components/22-axios/countries';
+import ParentComponent from './components/23-lifting-state-up/01-parent-component';
 
 const profileCardData = {
   firstName: 'Emir',
@@ -162,6 +163,8 @@ export default function App() {
       <UserCard />
       <br />
       <Countries />
+      <br />
+      <ParentComponent />
       <br />
       <br />
     </>
