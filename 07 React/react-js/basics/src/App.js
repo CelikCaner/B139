@@ -40,6 +40,9 @@ import Fetch2 from './components/21-fetch/02-fetch';
 import UserCard from './components/21-fetch/02-user-card';
 import Countries from './components/22-axios/countries';
 import ParentComponent from './components/23-lifting-state-up/01-parent-component';
+import Form1 from './components/24-forms/01-form';
+import Form2 from './components/24-forms/02-form';
+import FormikYup1 from './components/25-formik-yup/01-formik-yup';
 
 const profileCardData = {
   firstName: 'Emir',
@@ -165,6 +168,12 @@ export default function App() {
       <Countries />
       <br />
       <ParentComponent />
+      <br />
+      <Form1 />
+      <br />
+      <Form2 />
+      <br />
+      <FormikYup1 />
       <br />
       <br />
     </>
