@@ -69,9 +69,9 @@ import ParentComponent from './23-lifting-state-up/parent-componenet';
 // FORMS
 import Form1 from './24-forms/01-form';
 import Form2 from './24-forms/02-forms';
-import Form3 from './24-forms/03-forms';
-import Form4 from './24-forms/04-form';
-import Form5 from './24-forms/05-form';
+// import Form3 from './24-forms/03-forms';
+// import Form4 from './24-forms/04-form';
+// import Form5 from './24-forms/05-form';
 
 // FORMIK YUP
 import FormikYup1 from './25-formik-yup/formik-yup';
