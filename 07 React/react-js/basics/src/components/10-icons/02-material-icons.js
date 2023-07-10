@@ -6,15 +6,15 @@ import { theme } from './theme';
 import { ThemeProvider } from '@mui/material';
 
 const MaterialIcons = () => {
-  return (
-    <ThemeProvider theme={theme}>
-      <Container>
-        <h2>Material Icons</h2>
-        <FlutterDashIcon fontSize="large" color="benimRengim" />
-        <EmojiNature fontSize="large" color="secondary" />
-      </Container>
-    </ThemeProvider>
-  );
+    return (
+        <ThemeProvider theme={theme}>
+            <Container>
+                <h2>Material Icons</h2>
+                <FlutterDashIcon fontSize='large' color='secondary' />
+                <EmojiNature fontSize='large' color='benimRengim' />
+            </Container>
+        </ThemeProvider>
+    )
 };
 
 export default MaterialIcons;

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Footer = () => {
-  return (
-    <footer className="text-center p-5">
-      &copy; 2023 — Copyright by Techno Shop
-    </footer>
-  );
+const ProductFooter = () => {
+    return (
+        <div className='product-footer text-center p-5'>
+            &copy; 2023 — Copyright by Techno Shop
+        </div>
+    )
 };
 
-export default Footer;
+export default ProductFooter;
